@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/*first nav bar*/
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box 1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+}
+.border:hover {
+    border: 1px solid white;
+}
+
+/*Box 2*/
+.add-first {
+    color: #CCCCCC;
+    font-size: .75rem;
+    margin-left: 13px;
+}
+
+.icon {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.icon i {
+    font-size: 15px;
+}
+
+/*Box 3*/
+.nav-search {
+    background-color: orange;
+    margin: 5px 5px 5px 20px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.select {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #f3f3f3;
+    width: 40px;
+    border: none;
+    outline: none;
+}
+
+option{
+    color:#0F1111;
+    direction: ltr;/*left to right*/
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.input {
+    padding: 0px 0px 0px 10px;
+    height: 35px;
+    width: 700px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0F1111
+}
+
+/*Box 4*/
+.icon-lang {
+    display: flex;
+}
+
+.icon-lang i {
+    font-size: 20px;
+}
+
+.selectlang {
+    background-color: white;
+    height: 25px;
+    width: 45px;
+    color: #0F1111;
+    border-radius: 4px;
+    margin-left: 8px;
+    border:none;
+    outline: none;
+}
+
+/*Box 5*/
+span {
+    font-size: .85rem;
+}
+
+.second {
+    font-weight: 700;
+    font-size: .85rem;
+}
+
+/*Cart Box 6*/
+.cart i {
+
+    /* if we just want to increase size only of that icon within cart class */
+
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ---------------------------------------------End of first nav bar-----------------------------------------*/
+/*second nav bar*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #CCCCCC;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box 1*/
+.all {
+    display: flex;
+}
+
+.all span {
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+.all i {
+    /* to change font n size only of that icon in class "all" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* Box 2 */
+.panel-ops {
+    width: 70%;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.panel-ops p
+
+/* to create gap between options */
+    {
+    margin:10px 15px;
+}
+
+/*Box 3*/
+.panel-deals {
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------------------End of second nav bar-----------------------------------------*/
+.main-section {
+    background-image: url("main_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-msg {
+    background-color: white;
+    color: #0F1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.main-msg:hover
+{
+    border:1px solid black;
+}
+.link {
+    text-decoration: none;
+    color: #007185;
+}
+.link:hover
+{
+    border-bottom: 1px solid black;
+}
+
+/* shop-section*/
+.box-section {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    /*used to set whether flex items are forced onto one line or can wrap to multiple lines*/
+    background-color: #e2e7e6;
+}
+
+.box {
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 6px 15px;
+    margin: 35px 5px 0px 5px;
+}
+.box-content {
+    margin: 10px;
+}
+
+.box-img1 {
+    background-image: url("health.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img2 {
+    background-image: url("beautyproducts.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img3 {
+    background-image: url("fashion.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img4 {
+    background-image: url("mobile.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img5 {
+    background-image: url("toys.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img6 {
+    background-image: url("furniture.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img7 {
+    background-image: url("daily_accesories.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.box-img8 {
+    background-image: url("animals.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+/* footer-section*/
+footer {
+    margin-top: 10px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    border-top: 0.01px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastline {
+    color: #dddddd;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lastline a {
+    margin: 5px;
+}
